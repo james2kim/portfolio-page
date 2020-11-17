@@ -1,0 +1,17 @@
+.Logo {
+    /* background-color:; */
+    padding: 5px;
+    height:100%;
+    box-sizing:'border-box';
+    border-radius:5px
+}
+
+.img{
+    height:15vh;
+}
+
+@media (max-width: 414px) {
+    .Logo img {
+        height:15vh
+    }
+}

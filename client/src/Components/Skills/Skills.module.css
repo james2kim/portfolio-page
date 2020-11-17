@@ -1,0 +1,90 @@
+.Skills {
+    background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ),url('../../assets/images/Misc/night.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top:10vh;
+    height:110vh;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Skills h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
+    padding-top: 6vh;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5%;;
+}
+
+
+
+.Grid {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width:60vw;
+    height:80vh;
+    font-size: 4vw;
+    color:#C49B66
+}
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Box p {
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+    margin-top: 1vw;
+}
+
+.Img {
+    height:7vh;
+    width:4vw;
+}
+
+.Grid div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+
+    .Container {
+        margin-top: 5%;
+    }
+
+    .Skills {
+        height:100vh
+    }
+    
+.Grid {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    font-size: 30px;
+}
+
+.Skills h4 {
+    font-size: 20px;
+}
+
+.Box p {
+    font-size:14px;
+}
+
+.Img {
+    height:10vw;
+    width:8vw
+}
+
+}

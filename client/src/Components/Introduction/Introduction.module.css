@@ -1,0 +1,140 @@
+.Introduction {
+    overflow:hidden;
+    color:white;
+    font-weight:bold;
+    padding-top:5vh;
+}
+
+.drop { 
+    height:100vh;
+    background:url('../../assets/images/Misc/rain1.png');
+    animation: rain .9s linear infinite;
+}
+
+.drop:before {
+    content: '';
+    position: absolute;
+    width:100%;
+    height:100%;
+    background:#fff;
+    opacity: 0;
+}
+
+@keyframes rain {
+   0% 
+   {
+       background-position: 0% 0%;
+   }
+
+   100% 
+   {
+       background-position: 20% 100%;
+   }
+}
+
+.FadeIn {
+    animation:fadeIn ease 07s
+}
+
+.TestImage {
+    height:35%;
+    border-radius: 50%;
+    margin-top: 14%;
+    margin-left: 40%;
+    background-color: black;
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+}
+
+.Description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-top: 5%;
+    margin-left: 75%;
+    font-weight: 300;
+}
+
+.Name {
+    font-size: 3.5vw;
+}
+
+.Job {
+    font-size: 1.6vw;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+@media (max-width: 1200px) {
+
+    .Introduction {
+        height: 90vh
+    }
+
+    .Name {
+        font-size: 4vw;
+    }
+
+    .Job {
+        font-size: 2.2vw;
+    }
+
+    .Description {
+        margin-left: 65%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .Introduction {
+        height:80vh;
+        width:100%;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .Introduction {
+        height:100vh;
+        width:100%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .TestImage {
+        margin-top: 0%;
+        height: 25%;
+        margin-left: 0%;
+        margin-top: 0%;
+        border-radius: 50%;
+    }
+
+    .Description {
+       align-items: center;
+       justify-content: space-between;
+       margin-left: 0%;
+    }
+
+    .Name {
+        font-size: 38px;
+    }
+
+    .Job {
+        font-size: 18px;
+    }
+}
+

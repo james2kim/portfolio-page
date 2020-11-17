@@ -1,0 +1,65 @@
+
+.Footer {
+    height: 40vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../../assets/images/Misc/night.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Footer_Container {
+    text-align: center;
+    color:white;
+    height: 20vh;
+    width: 60vw;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #0D343A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.Title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Link {
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-position: under;
+    cursor: pointer;
+}
+
+.Trademark {
+    position: absolute;
+    color:white;
+    font-size: 12px;
+    margin-top: 15%;
+}
+
+@media (max-width: 600px) {
+
+    .Title {
+        font-size: 24px;
+    }
+
+    .Link {
+        font-size: 12px;
+    }
+
+    .Footer_Container {
+        justify-content: space-around;
+        height: 15vh
+    }
+
+    .Trademark {
+        bottom: 0;
+    }
+
+}

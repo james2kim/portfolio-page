@@ -1,0 +1,9 @@
+.Background {
+  background: url('./assets/images/Misc/konoha.jpg');
+  margin:0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+

@@ -1,0 +1,185 @@
+.Application {
+    width:100%;
+    text-align: center;
+    height:100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.Project {
+    /* width:75vw; */
+    /* height:130vh; */
+    display:grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 50% 50%; */
+   
+}
+
+.ProjectBg {
+  background: #0D343A;
+  border:1px solid #FF9966;
+  width:75%;
+  /* display: flex;
+  justify-content: center;
+align-items: center; */
+  border-radius: 6px;
+  margin-left: 15%;
+  color:white;
+  font-size: 13.5px;
+ text-align: center;
+ padding-bottom:4%
+}
+
+.Images {
+
+  width:400px;
+  height:250px; 
+  margin-bottom:2%;
+  border-radius: 15px;
+}
+
+.Projects {
+    display:flex;
+    justify-content: space-evenly;
+   
+}
+
+.Header {
+    /* position : relative; */
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+     font-weight: bold;
+     font-size: 2vw;
+   text-decoration: underline;
+   text-decoration-color: #C49B66;
+    text-underline-position: under;
+  }
+
+  .Filter {
+    display:flex;
+    justify-content: space-evenly;
+    width:60%;
+    margin-left: 20%;
+    margin-bottom: 5vh;
+}
+
+.Title {
+  font-weight: bold;
+  font-size: 23px;
+  padding-top:2vh
+}
+
+.ShowDescription {
+  max-width: 80%;
+  text-align: center;
+  margin-left: 10%;;
+}
+
+
+@media (max-width: 1250px) {
+.ProjectBg {
+  font-size: 10px;
+}
+
+.Images {
+  width:350px
+}
+}
+
+  @media (max-width: 991px) {
+      /* .Application {
+        height:220vh
+      } */
+
+      .Header {
+        font-size: 20px;
+        margin-left: 5%;
+      }
+
+        .Filter {
+            font-size: 13px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-row: 50% 50%;
+            word-wrap: break-word;
+            width:90%;
+         
+            text-align: start;
+        }
+
+        .Project {
+            width:95vw;
+            grid-template-columns:100%;
+            
+        }
+
+      .ProjectBg {
+        font-size: 10px;
+        margin-bottom: 10%;
+        padding-bottom:0%
+      }
+
+      .Title {
+        font-size: 12px;;
+      }
+
+      .Images {
+        height:200px;
+        width:300px
+      }
+
+      .ShowDescription {
+        display:none;
+      }
+    }
+
+
+    @media (max-width:600px) {
+      .Header {
+        font-size: 20px;
+      }
+
+        .Filter {
+            font-size: 13px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-row: 50% 50%;
+            word-wrap: break-word;
+            width:90%;
+            margin-left: 10%;
+            text-align: start;
+        }
+
+        .Project {
+            width:95vw;
+            grid-template-columns:100%;
+            
+        }
+
+      .ProjectBg {
+        font-size: 10px;
+        margin-bottom: 10%;
+        padding-bottom:0%
+      }
+
+      .Title {
+        font-size: 12px;;
+      }
+
+      .Images {
+        height:150px;
+        width:200px
+      }
+
+      .ShowDescription {
+        display:none;
+      }
+    }
+
+
+    @media (max-width:300px) {
+      .images {
+        width:100px;
+        height:60px
+      }
+    }

@@ -1,0 +1,87 @@
+.Skills {
+    height:110vh;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Skills h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
+    padding-top: 6vh;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;;
+   
+}
+
+
+
+.Grid {
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    width:60vw;
+    height:80vh;
+    font-size: 4vw;
+    color:#C49B66
+   
+  
+}
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Box p {
+    font-size: 1vw;
+    color: black;
+    font-weight: bold;
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.Img {
+    height:7vh;
+    width:4vw
+}
+
+.Grid div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .Container {
+        margin-top: 5%;
+    }   
+.Skills {
+    height:100vh
+}
+.Grid {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    font-size: 30px;
+}
+
+.Skills h4 {
+    font-size: 20px;
+}
+
+.Box p {
+    font-size:14px;
+}
+
+.Img {
+    height:10vw;
+    width:8vw
+}
+
+}

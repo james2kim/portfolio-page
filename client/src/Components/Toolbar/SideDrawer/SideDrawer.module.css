@@ -1,0 +1,116 @@
+.SideDrawer {
+    position: fixed;
+    width: 600px;
+    max-width: 70%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: #0D343A;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Title {
+    font-size: 41px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Title span {
+    font-style: italic;
+}
+
+.CloseWindow {
+    float: right;
+    position: relative;
+    font-size: 25px;
+    color:white;
+    cursor: pointer;
+}
+
+.CloseWindow:hover {
+    -webkit-animation:spin 0.4s linear normal;
+    -moz-animation:spin 0.4s linear normal;
+    animation:spin 0.4s linear normal;
+}
+
+.Contact {
+    color:white;
+    margin-top: 8vh;
+    margin-left: 5vw;
+    width:70%;
+    height:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 1vw;
+    
+}
+
+.Contact h4 {
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.Captions {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #C49B66;
+    text-underline-position: under;
+}
+
+.Icons {
+    display: flex;
+    width:15vw;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+.Logo {
+    height: 11%;
+    margin-bottom: 32px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@media (max-width:600px) {
+    .Contact {
+        font-size:14px;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .Contact h4 {
+        font-size: 18px;
+      
+    }
+
+    .Title {
+        font-size: 24px;
+    }
+
+    .Description {
+        font-size: 12px;
+    }
+
+    .Icons {
+        font-size: 20px;
+        width:100%;
+    }
+}

@@ -1,0 +1,91 @@
+.Navbar{
+    margin-top:-3vw;
+    height:18vh;
+    padding-bottom:0vh;
+    color:white;
+    z-index: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.TransitionNav {
+    animation: fadeIn ease 02s;
+    -webkit-animation: fadeIn ease 02s;
+    -moz-animation: fadeIn ease 02s;
+    -o-animation: fadeIn ease 02s;
+    -ms-animation: fadeIn ease 02s;
+    background-color: #0D343A;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+
+.Toolbar {
+    display:flex;
+    justify-content:flex-end;
+    margin-left: 40%;
+    padding-top: 2%;
+}
+
+.NavItem {
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.Logo {
+    margin-left:10%;
+    padding-top: 2%;
+}
+
+
+@media(max-width:1250px) {
+    .NavItem {
+        font-size: 11.5px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .Toolbar {
+        margin-left:-4%;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        width:100vw;
+        box-shadow: lightgray;
+        background:#0D343A;;
+    }
+
+    .Logo {
+        margin-left:1%;
+    }
+
+    .NavItem {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .Navbar {
+        height:17.5vh
+    }
+
+    .Toolbar {
+        margin-left:-4%;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        width:100vw;
+        box-shadow: lightgray;
+        background:#0D343A;;
+    }
+    
+    .Logo {
+        margin-left:1%
+    }
+}

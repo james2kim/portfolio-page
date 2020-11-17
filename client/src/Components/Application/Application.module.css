@@ -1,0 +1,45 @@
+
+.FilterButtons {
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+    overflow-wrap: anywhere;
+    text-align: start;
+    margin-bottom: 5vh;
+    font-size: 14px;
+    text-align: center;
+
+}
+.FilterButtons:focus {
+    outline: none;
+}
+
+.active {
+    background: #C49B66;
+    color:white
+}
+
+.Line {
+    margin-left:22%
+}
+
+@media (max-width: 991px) {
+
+    .FilterButtons {
+        max-width: 50%;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .FilterButtons {
+        max-width: 80%;
+        font-size: 10.5px;
+    }
+    
+}
+
+
+
+
