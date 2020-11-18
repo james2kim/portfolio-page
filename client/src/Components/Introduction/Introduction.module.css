@@ -53,16 +53,19 @@
     justify-content: center;
     align-items:flex-start;
     margin-top: 5%;
-    margin-left: 75%;
+    margin-left: 77%;
     font-weight: 300;
 }
 
 .Name {
     font-size: 3.5vw;
+    font-family: 'Poppins', sans-serif;
 }
 
 .Job {
     font-size: 1.6vw;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2%;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
