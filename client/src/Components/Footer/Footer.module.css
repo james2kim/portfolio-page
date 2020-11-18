@@ -36,7 +36,12 @@
     cursor: pointer;
 }
 
-
+.Trademark {
+    position: absolute;
+    color:white;
+    font-size: 12px;
+    margin-top: 15%;
+}
 
 @media (max-width: 600px) {
 
@@ -51,6 +56,10 @@
     .Footer_Container {
         justify-content: space-around;
         height: 15vh
+    }
+
+    .Trademark {
+       display: none;
     }
 
 }

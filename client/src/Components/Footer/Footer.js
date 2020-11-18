@@ -9,6 +9,7 @@ const Footer = (props) => {
                 <p className={styles.Title}>Get in Touch</p>
                 <p className={styles.Link} onClick={props.clicked}>Let's Chat Over a Skype Interview</p>
             </section>
+            <p className={styles.Trademark}>© Copyright James Kim 2020</p>
         </footer>
     )
 }   
