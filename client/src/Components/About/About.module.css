@@ -70,6 +70,10 @@
 
 @media (max-width:414px) {
 
+  .About {
+    margin-bottom: 5%;
+  }
+
   .Text {
     font-size: 10px;
   }
