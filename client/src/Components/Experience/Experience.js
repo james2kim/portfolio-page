@@ -13,13 +13,13 @@ const experience = () => {
                 <h4 className={[styles.underline, styles.Title1].join(' ')}>Education</h4>
                 <p className={styles.Text}>
                     <span className={styles.Title}>
-                        freeCodeCamp 
-                    </span><br />Full Stack Web Development</p>
+                        Self Taught Engineer 
+                    </span><br /></p>
             
                 <p className={styles.Text}>
                     <span className={styles.Title}>
                         University of Southern California
-                    </span><br/>BA, Economics</p>
+                    </span><br/>Bachelor of Arts</p>
             </div>
 
             <div className={styles.Category}>
@@ -30,7 +30,7 @@ const experience = () => {
                 <p className={styles.Text}>
                     <span className={styles.Title}>
                         Jayu Real Estate
-                    </span><br/>Website Creator</p>
+                    </span><br/>Software Engineer</p>
                 <p className={styles.Text}>
                     <span className={styles.Title}>
                         Youtube: How to Solve Algorithms
@@ -44,7 +44,7 @@ const experience = () => {
                 <h4 className={[styles.underline, styles.Title1].join(' ')}>Interests</h4>
                 <p className={styles.Text}>
                     <span className={styles.Title}>
-                        Web and App Development
+                      App Development
                     </span><br/>I'm always looking to create original, <br/>
                     creative, and highly performant apps
                 </p>

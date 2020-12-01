@@ -16,16 +16,13 @@ return (
 
             <p>Hi, my name is <strong>James</strong>, and I'm a Full Stack Developer who 
                 strives to build highly functional and performant web applications.
-               I have a passion for coding, and I enjoy taking a simple idea and converting 
-               it into a highly functional application by writing clean, reusable, and flawlessly designed code.
+                I enjoy taking an idea or the foundations of one, and turning it  
+                into a beautiful, highly functional application built through clean, reusable, and flawlessly designed code.
                I am well versed in MongoDB, Express, React.js + Redux, and Node.js 
                when developing, but I always strive to learn new technologies. </p> 
                
-            <p>As part of completing freeCodeCamp, I authored 20 original projects, eventually demonstrating sound proficiency over 
-                Relational/NoSQL Databases, REST API Design using Node.js and Express, and client side development using React.js. 
-                In addition to freeCodeCamp, I have utilized the MERN stack in paid freelance work and in a production grade 
-                full stack chatting app built with React hooks that features persistent authentication by validating JWT's and storing it in the browser, 
-                Data Models stored in MongoDB, real time user connection via socketIO, and REST API Endpoints designed using express. </p>
+            <p>My interest in software engineering begin during the latter half of my undergraduate education, where I devoted the majority of my free time teaching myself web technologies, computer science, and application design patterns.
+                Shortly after graduating from the University of Southern California, I joined the engineering team at Jayu Real Estate where I worked on developing a product and administration platform, optimizing performance for multiple SPA's, and improving production grade security and authentication for admin accounts. </p>
                
             <p> In addition to my personal projects and personal development, I take the time to contribute to the online developer community. 
                 I have an active Youtube series that teaches other coders how to understand and solve 

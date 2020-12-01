@@ -12,7 +12,7 @@ const Introduction = (props) => {
                 src={sharingan} />
             <div className={styles.Description}>
                 <p className={styles.Name}>James Kim</p>
-                <p className={styles.Job}>Full Stack Developer</p>
+                <p className={styles.Job}>Software Engineer</p>
             </div>
             <span id="About"></span>
         </header>
