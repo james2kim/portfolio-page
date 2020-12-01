@@ -12,9 +12,9 @@ return (
     <section className={styles.About}>
         <div><ProfilePhoto /></div>
         <div className={styles.Text}>
-            <p className={styles.Title}>I am a Full Stack Developer</p>
+            <p className={styles.Title}>I am a Software Engineer</p>
 
-            <p>Hi, my name is <strong>James</strong>, and I'm a Full Stack Developer who 
+            <p>Hi, my name is <strong>James</strong>, and I'm a software engineer who 
                 strives to build highly functional and performant web applications.
                 I enjoy taking an idea or the foundations of one, and turning it  
                 into a beautiful, highly functional application built through clean, reusable, and flawlessly designed code.
