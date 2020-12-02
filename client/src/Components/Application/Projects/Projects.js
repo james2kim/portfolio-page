@@ -47,7 +47,7 @@ const filterRender = () => {
                             A Full Stack Application (React, Express, Node) that fetches 
                             real time weather data from the Mapbox and WeatherStack API. </p>
                         <Project 
-                            description="Node.js, React.js, API"  
+                            description="Node.js . React.js . API"  
                             URL='james2kim-weathernow.herokuapp.com/' 
                             gitURL='https://github.com/james2kim/WeatherNow'/>
                     </div>
@@ -88,7 +88,7 @@ const filterRender = () => {
                               Excercise Tracker is a minimalist full stack application (mainly an API), built with MongoDB, 
                               Express and Node.js, where users can create an account, and add and view their excercise logs.</p>
                             <Project 
-                              description="D3.js . Javascript . API" 
+                              description="MongoDB . NodeJS . Express . Rest API" 
                               URL='https://global-rumbling-mahogany.glitch.me/' 
                               gitURL='https://github.com/james2kim/Excercise-Tracker-Microservice'/>
                         </div>
