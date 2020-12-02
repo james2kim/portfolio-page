@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2397ec59.chunk.css",
-    "main.js": "/static/js/main.501469ab.chunk.js",
-    "main.js.map": "/static/js/main.501469ab.chunk.js.map",
+    "main.css": "/static/css/main.356b2740.chunk.css",
+    "main.js": "/static/js/main.8d88b4de.chunk.js",
+    "main.js.map": "/static/js/main.8d88b4de.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf29a775.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf29a775.js.map",
     "static/css/2.6856226c.chunk.css": "/static/css/2.6856226c.chunk.css",
     "static/js/2.c58b2771.chunk.js": "/static/js/2.c58b2771.chunk.js",
     "static/js/2.c58b2771.chunk.js.map": "/static/js/2.c58b2771.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cc4cd5b256241bb55fe0d8acc5624b28.js": "/precache-manifest.cc4cd5b256241bb55fe0d8acc5624b28.js",
+    "precache-manifest.4d5bd322bfcc4027ccb402bf2a2d6643.js": "/precache-manifest.4d5bd322bfcc4027ccb402bf2a2d6643.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.6856226c.chunk.css.map": "/static/css/2.6856226c.chunk.css.map",
-    "static/css/main.2397ec59.chunk.css.map": "/static/css/main.2397ec59.chunk.css.map",
+    "static/css/main.356b2740.chunk.css.map": "/static/css/main.356b2740.chunk.css.map",
     "static/js/2.c58b2771.chunk.js.LICENSE.txt": "/static/js/2.c58b2771.chunk.js.LICENSE.txt",
     "static/media/calculator.png": "/static/media/calculator.4dc62519.png",
     "static/media/chat.png": "/static/media/chat.4af0ca99.png",
@@ -20,7 +20,7 @@
     "static/media/exercise.png": "/static/media/exercise.c034129f.png",
     "static/media/App.module.css": "/static/media/konoha.1fd03788.jpg",
     "static/media/movie.png": "/static/media/movie.1387d7aa.png",
-    "static/media/profile-photo.png": "/static/media/profile-photo.236d1828.png",
+    "static/media/profile-photo.png": "/static/media/profile-photo.2158253b.png",
     "static/media/Introduction.module.css": "/static/media/rain1.ea2a1b67.png",
     "static/media/resume.pdf": "/static/media/resume.9cfede95.pdf",
     "static/media/sharingan.png": "/static/media/sharingan.a6bfa99f.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.bf29a775.js",
     "static/css/2.6856226c.chunk.css",
     "static/js/2.c58b2771.chunk.js",
-    "static/css/main.2397ec59.chunk.css",
-    "static/js/main.501469ab.chunk.js"
+    "static/css/main.356b2740.chunk.css",
+    "static/js/main.8d88b4de.chunk.js"
   ]
 }

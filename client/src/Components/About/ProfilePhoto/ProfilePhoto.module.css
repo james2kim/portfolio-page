@@ -6,8 +6,8 @@
 }
 
 .img{
-    width:22vw;
-    height:52vh;
+    width:25vw;
+ 
     border-radius: 10px;
     box-shadow: 5px 5px 5px #888888;
     transition: transform .2s; /* Animation */
@@ -19,7 +19,7 @@
 @media (max-width:1000px) {
     .img {
         width:30vw;
-        height:40vh
+      
     }
   }
 
