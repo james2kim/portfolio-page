@@ -21,7 +21,7 @@ const filterRender = () => {
 
                     <div className={styles.ProjectBg}>
                         <p className={styles.Title}>
-                            Chatting App</p>
+                            JChat</p>
                         <img 
                             alt="Chat Application" 
                             src={Chat} 
