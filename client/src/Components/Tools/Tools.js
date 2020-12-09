@@ -14,8 +14,8 @@ const skills = () => {
                     </div>
 
                     <div className={styles.Box}>
-                        <i className="devicon-github-plain"></i>
-                        <p>Github</p>
+                    <i className="devicon-handlebars-plain"></i>
+                        <p>Handlebars</p>
                     </div>
                     
                     <div className={styles.Box}>
