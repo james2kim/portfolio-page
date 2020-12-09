@@ -151,7 +151,7 @@ const filterRender = () => {
                                 of adults with a bachelors degree.</p>
                             <Project 
                                 description="D3.js . SVG Canvas . CSS" 
-                                URL='https://james2kim-cloropleth-map.herokuapp.com/' 
+                                URL='https://james2kim-d3chloropleth.herokuapp.com/' 
                                 gitURL='https://github.com/james2kim/D3-Cloropleth-Map'/>
                         </div>
 
