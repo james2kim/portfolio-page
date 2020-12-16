@@ -129,7 +129,7 @@ const filterRender = () => {
                                 built with functional programming principles.</p>
                             <Project 
                                 description="Javascript .  Functional Programming" 
-                                URL='https//james2kim-calculator.herokuapp.com/' 
+                                URL='https://james2kim-calculator.herokuapp.com/' 
                                 gitURL='https://github.com/james2kim/Javascript-Calculator'/>
                         </div>
 
