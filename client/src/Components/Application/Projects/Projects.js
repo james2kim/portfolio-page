@@ -32,7 +32,7 @@ const filterRender = () => {
                             Users can also add profile photos, and edit account information.</p>
                         <Project 
                             description="MongoDB . React.js . Node.js . Socket.io"  
-                            URL='https://james2kim-chatting-app.herokuapp.com/' 
+                            URL='https://www.j-chat.com' 
                             gitURL='https://github.com/james2kim/Chatting-Application/'/>
                     </div>
 
@@ -48,7 +48,7 @@ const filterRender = () => {
                             real time weather data from the Mapbox and WeatherStack API. </p>
                         <Project 
                             description="Node.js . React.js . API"  
-                            URL='james2kim-weathernow.herokuapp.com/' 
+                            URL='https://james2kim-weathernow.herokuapp.com/' 
                             gitURL='https://github.com/james2kim/WeatherNow'/>
                     </div>
 
