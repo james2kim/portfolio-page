@@ -38,7 +38,7 @@ const filterRender = () => {
 
                     <div className={styles.ProjectBg}>
                         <p className={styles.Title}>
-                            Weather Now</p>
+                            Global Weather Map</p>
                         <img 
                             alt="Weather Application" 
                             src={Weather} 
