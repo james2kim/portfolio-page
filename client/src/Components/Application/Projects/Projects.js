@@ -33,7 +33,7 @@ const filterRender = () => {
                         <Project 
                             description="MongoDB . React.js . Node.js . Socket.io"  
                             URL='https://www.j-chat.com' 
-                            gitURL='https://github.com/james2kim/Chatting-Application/'/>
+                            gitURL='https://github.com/james2kim/J-Chat/'/>
                     </div>
 
                     <div className={styles.ProjectBg}>
